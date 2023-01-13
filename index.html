@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+</head>
+<style>
+    #name{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        height:50px;
+        width:100%;
+        font-size: large;
+        
+    }
+    #write{
+        background-color: rgb(22, 22, 22);
+        color: aliceblue;
+        font-size: larger;
+    }
+    input{
+        margin-top: 20px;
+        
+    }
+    .fillup{
+       background-color: rgb(46, 44, 44); 
+       margin:10px 200px;
+       padding-top: 20px;
+       padding-bottom:60%;
+       text-align: left;
+       padding-left: 25px;
+       padding-right: 40px;
+       font-size:x-large;
+       font-family: 'Sawarabi Gothic', sans-serif;
+       padding-bottom: 50px;
+       border-radius: 7px;
+       
+    }
+    h1{
+        font-weight: 800;
+        font-family: 'Sawarabi Gothic', sans-serif;
+        font-size:xx-large;
+    }
+    p
+    {
+        font-family: 'Satisfy', cursive;
+        font-size: xx-large;  
+    }
+.head1{
+    text-align: center;
+    background-color: green;
+    margin:50px 10px 50px 10px;
+    
+    padding-top: 20px;
+    padding-bottom: 3%;
+   border-radius: 10px;
+   
+    color: aliceblue;
+}
+#submit{
+ background-color: #05a830;
+ height: 50px;
+ width:90px;
+ color: antiquewhite;
+ font-size: large;
+ border-radius: 5px;
+}
+#submit:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+</style>
+<body>
+    <div class="head1">
+<h1>Skills++ Survey Form</h1>
+<p>Thank you for taking the time to help us improve the platform</p>
+   <div class="fillup">
+    <form>
+        <label for="name">What is your name?</label><br>
+        <input type="text" id="name"  name="name" size="80"  placeholder="Enter your name">
+        <br><br>
+        <label for="email">What is your email address?</label><br>
+        <input type="text" id="name" name="email"  size="80" placeholder="Enter your Email address"><br><br>
+        <label for="age">What is your age?</label><br>
+        <input type="text" id="name" name="age" size="80" placeholder="Enter your age"><br><br>
+        <label for="option">Which option best describes your current role?</label><br>
+        <select id="name" name="option" size="">
+        <option value="Student">Student</option><br>
+        <option value="Teacher">Full Time Job </option><br>
+        <option value="Others">Part Time Job</option><br>
+        <option value="job">Freelancer</option><br>
+        </select>
+        <br><br>
+        <label for="choose 1">Would you recommend [Company Name] to a friend?</label><br>
+        <input type="radio" name="def" value="def">Definitely<br>
+        <input type="radio" name="may" value="may">Maybe<br>
+        <input type="radio" name="sure" value="sure">Not Sure<br><br>
+        <label for="choose 1">What would you like to see improved?(Check all that apply)</label> <br>
+        <input type="checkbox" name="front" value="front">Front-end projects<br>
+        <input type="checkbox" name="back" value="back">Back-end projects<br>
+        <input type="checkbox" name="front" value="front">Front-end projects<br>
+        <input type="checkbox" name="none" value="none">Challenges<br><br>
+        <label for="write">Any comments or suggestions</label><br>
+        <textarea id="write" rows="10" cols="70">Enter your comments here...</textarea><br>
+        <input type="submit" id="submit" value="Submit">
+        
+        
+        
+    </form>
+   </div>
+</div>
+</body>
+</html>
